@@ -8,13 +8,12 @@ excerpt: "HelloWord"
 ---
 
 如果您看到这篇文章，表示您的 Github Pages 已经搭建成功了！
----
 
 > 使用 Markdown 语法写作
 > 
 > 取出 标题：{{site.title}}
 > 
-> 取出 URL {{site.url}}
+> 取出 URL：{{site.url}}
 > 
 > 取出 文章标题：{{page.title}}
 > 

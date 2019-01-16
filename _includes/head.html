@@ -3,17 +3,16 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="{{ page.title }},{% for category in page.categories %}{{ category }},{% endfor %} {% for tag in page.tags %}{{ tag }},{% endfor %},{{ site.keywords }}" />
-    <meta name="description" content="{{ page.title }}, {% for category in page.categories %}{{ category }},{% endfor %} {% for tag in page.tags %}{{ tag }},{% endfor %} {% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="keywords" content="{{page.title }},{% for category in page.categories %}{{category}},{% endfor %} {% for tag in page.tags %}{{tag}},{% endfor %},{{site.keywords}}" />
+    <meta name="description" content="{{page.title}},{% for category in page.categories %}{{category}},{% endfor %}{% for tag in page.tags %}{{tag}},{% endfor %}{% if page.excerpt %}{{page.excerpt | strip_html | strip_newlines | truncate: 160}}{% else %}{{site.description}}{% endif %}" />
+    <link rel="alternate" type="application/rss+xml" title="{{site.title}}" href="{{'feed.xml' | prepend: site.baseurl | prepend: site.url}}" />
     <!-- 引入样式 -->
     <link href="{{site.baseurl}}/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{site.baseurl}}/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="{{site.baseurl}}/assets/pithy/pithy.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/assets/scrollbar.css" rel="stylesheet">
     <!--bootstrap支持IE8-->
     <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.2/html5shiv-printshiv.js"></script>
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
     <![endif]-->
-    <link rel="alternate" type="application/rss+xml" title="{{site.title}}" href="{{'feed.xml' | prepend: site.baseurl | prepend: site.url}}" />
 </head>
