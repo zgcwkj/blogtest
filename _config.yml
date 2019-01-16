@@ -29,7 +29,7 @@ kramdown:
 
 # 地址配置
 baseurl: "/"
-url: "https://zgcwkj.github.io"
+url: ""
 
 # 分页配置
 paginate: 10
