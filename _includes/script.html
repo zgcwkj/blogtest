@@ -2,6 +2,3 @@
 <script src="{{ site.baseurl}}/assets/jquery/1.11.3/jquery.js"></script>
 <script src="{{ site.baseurl}}/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="{{ site.baseurl}}/assets/pithy/js/pithy.js"></script>
-{% for script in page.scripts %}
-<script type="text/javascript" src="{{'/assets/script/' | append: script | prepend: site.baseurl }}"></script>
-{% endfor %}
