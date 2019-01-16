@@ -1,6 +1,7 @@
-#version
+# 版本号
 version: "1.0"
 
+# 永久链接
 permalink: /:year/:month/:day/:title/
 
 # 站点配置
@@ -12,6 +13,12 @@ keywords: "分享生活,分享技术"
 username: 用户名称
 github: https://github.com
 email: root@admin.com
+
+# 评论系统配置 https://github.com/imsun/gitment
+githubowner: GitHub名称
+githubrepo: 存储评论的项目名称
+clientid: 要申请clientid
+clientsecret: 要申请clientsecret
 
 # Markdown配置
 kramdown:
@@ -32,9 +39,3 @@ paginate_path: "page/:num"
 sass:
   sass_dir: /assets/pithy/css
   style: :compressed
-
-# 评论系统配置 https://github.com/imsun/gitment
-githubowner: zgcwkj
-githubrepo: zgcwkj.github.io
-clientid: b0951a87d9540a49b727
-clientsecret: e55b7782f85149dacb1b4a6a0dd692f7e049e901
