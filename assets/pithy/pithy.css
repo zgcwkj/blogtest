@@ -405,7 +405,7 @@ blockquote {
 }
 
 .bottom-panel {
-  position: fixed;
+  position: inherit;
   bottom: 0;
   text-align: center;
   line-height: 30px;

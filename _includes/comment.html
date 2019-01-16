@@ -1,21 +1,20 @@
 <!-- 评论 -->
 <div id="post-comment" class="panel panel-default">
     <div class="panel-body">
-    <!-- 多说评论框 start -->
-        <div id="container"></div>
-        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-        <script>
-          var gitment = new Gitment({
-            id: '{{page.id}}',
-            owner: '{{site.title}}',
-            repo: '{{site.url}}',
-            oauth: {
-              client_id: '{{site.clientid}}',
-              client_secret: '{{site.clientsecret}}',
-            },
-          });
-          gitment.render('container');
-        </script>
+      <div id="container"></div>
+      <link href="{{site.baseurl}}/assets/gitment/style/default.css" rel="stylesheet">
+      <script src="{{site.baseurl}}/assets/gitment/dist/gitment.browser.js"></script>
+      <script>
+        var gitment = new Gitment({
+          id: '{{page.id}}',
+          owner: '{{site.title}}',
+          repo: '{{site.url}}',
+          oauth: {
+            client_id: '{{site.clientid}}',
+            client_secret: '{{site.clientsecret}}',
+          },
+        });
+        gitment.render('container');
+      </script>
     </div>
 </div>
