@@ -1,53 +1,46 @@
-# ---------------------------------------------------------------
-# Jekyll & Global Configuration
-## Docs: https://jekyllrb.com/docs/configuration/
-# ---------------------------------------------------------------
-
 # Site
-title: Jackpon
+# 网站
+title: 你好世界
 subtitle:
-description: "a young idler, an old beggar !"
-author: Jackpon
+description: "一段描述！"
+author: 我的博客
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
+##如果您的网站位于子目录中，请将网址设置为'http://yoursite.com'，将baseurl设置为'/child'
 url: http://jackpon.cn
 baseurl:
 permalink: pretty
 
 # Pagination
+# 分页
 paginate: 7
-#paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#category:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#tag:
-  #paginate: 10
-  #paginate_path: "/page:num/"
 
 # Handling Reading
+# 处理阅读
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md"]
 
 # Separator
+# 分隔器
 #excerpt_separator: <!-- more -->
 
 # Code Highlighter
+# Codel荧光笔
 ## 'pygments' is unsupported on GitHub Pages now.
 highlighter: rouge
 
 #### Markdown Processors
+#### Markdown 处理
 ## 'redcarpet' is unsupported on GitHub Pages now.
 markdown: kramdown
 kramdown:
     input: GFM
 
 # Default Attributes
+# 默认属性
 ## Docs: https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
   -
@@ -59,43 +52,57 @@ defaults:
       comments: true
 
 # Atom feed
+# Atom供稿
 feed:
   path: atom.xml
 
 # Plugins
+# 插件
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
 plugins:
 # jemoji conficts with toc in some no-ascii post
+# jemoji在某些非ascii帖子中与toc冲突
 # - jemoji
+# 表情符号
  - jekyll-sitemap
  - jekyll-feed
 
 # ---------------------------------------------------------------
 # Site Information Settings
+# 站点信息设置
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/images/` directory.
+# 将您的favicon.ico放入`assets / images /`目录
 favicon: /assets/images/favicon.ico
 
 # Set default keywords (Use a comma to separate)
+# 设置默认关键字（使用逗号分隔）
 keywords: "Jekyll, NexT"
 
 # Set rss to false to disable feed link.
+# 将rss设置为false以禁用提要链接。
 # Leave rss as empty to use site's feed link.
+# 将rss留空以使用网站的Feed链接。
 # Set rss to specific value if you have burned your feed already.
+# 如果您已经烧毁了Feed，请将rss设置为特定值。
 rss:
 
 # Specify the date when the site was setup
+# 指定站点设置的日期
 since: 2017
 
 # icon between year and author @Footer
+# 年与作者@Footer之间的图标
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
+# Footer` powered-by`和`theme-info`版权
 copyright: true
 
 # ---------------------------------------------------------------
 # SEO Settings
+# SEO设置
 # ---------------------------------------------------------------
 
 # Canonical, set a canonical link tag in your jekyll, you could use it for your SEO of blog.
@@ -700,11 +707,12 @@ vendors:
   # https://github.com/ethantw/Han
   han:
 
-
 # Assets
+# 资产
 css: assets/css
 js: assets/js
 images: assets/images
 
 # Theme version
+# 主题版本
 version: 5.1.1
