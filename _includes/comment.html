@@ -2,17 +2,13 @@
 <div id="post-comment" class="panel panel-default">
     <div class="panel-body">
       <div id="container"></div>
-      <!--
-      <link href="{{site.baseurl}}/assets/gitment/style/default.css" rel="stylesheet">
-      <script src="{{site.baseurl}}/assets/gitment/dist/gitment.browser.js"></script>
-      -->
-      <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-      <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+      <link href="https://jjeejj.github.io/css/gitment.css" rel="stylesheet">
+      <script src="https://jjeejj.github.io/js/gitment.js"></script>
       <script>
         var gitment = new Gitment({
           id: '{{page.id}}',
           owner: '{{site.title}}',
-          repo: 'issues',
+          repo: '{{site.title}}',
           oauth: {
             client_id: '{{site.clientid}}',
             client_secret: '{{site.clientsecret}}',
