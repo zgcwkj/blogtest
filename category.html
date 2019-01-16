@@ -11,7 +11,6 @@ scripts: [category.js]
           {% include posts.html%}
       {% endfor %}
     </section>
-
     <!-- 每一个分类下文章 -->
     {% for category in site.categories%}
     <section class="category hide" id="{{category | first}}">
@@ -20,7 +19,6 @@ scripts: [category.js]
       {% endfor %}
     </section>
     {% endfor %}
-
 </div>
 <div class="col-md-3 col-sidebar">
     {% include categories.html %}
