@@ -2,13 +2,15 @@
 <div id="post-comment" class="panel panel-default">
     <div class="panel-body">
       <div id="container"></div>
+      <!--<link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+      <script src="https://billts.site/js/gitment.js"></script>-->
       <link href="https://jjeejj.github.io/css/gitment.css" rel="stylesheet">
       <script src="https://jjeejj.github.io/js/gitment.js"></script>
       <script>
         var gitment = new Gitment({
           id: '{{page.id}}',
-          owner: '{{site.title}}',
-          repo: '{{site.title}}',
+          owner: '{{site.githubowner}}',
+          repo: '{{site.githubrepo}}',
           oauth: {
             client_id: '{{site.clientid}}',
             client_secret: '{{site.clientsecret}}',
