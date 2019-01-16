@@ -1,10 +1,10 @@
 ---
-title: Hello World
-categories:
-- 默认分类
-tags:
-- 默认标签
-updated: 2019-01-01
+layout: post
+title: 你好世界
+tags:  [默认标签]
+categories: [默认分类]
+author: 系统
+excerpt: "HelloWord"
 ---
 
 # 使用 Markdown 语法
