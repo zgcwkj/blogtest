@@ -14,9 +14,9 @@
 
 **_posts**：这里面装的就是你的博文啦，记住，要用 Markdown 语法写，不然上传会失败
 
-**README.md**：项目说明描述等
-
 **CNAME**：绑定的页面 CNAME 值
+
+**README.md**：项目说明描述等
 
 ## MkDocs 中文文档
 
