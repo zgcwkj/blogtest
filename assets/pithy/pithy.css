@@ -403,3 +403,17 @@ blockquote {
 .totop:hover {
 	background-color: #666
 }
+
+.bottom-panel {
+  position: inherit;
+  bottom: 0;
+  text-align: center;
+  line-height: 30px;
+  width: 100%;
+  height: 30px;
+  background: #333
+}
+
+.bottom-panel span {
+  color: #fff;
+}
