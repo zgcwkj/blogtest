@@ -9,8 +9,11 @@ excerpt: "HelloWord"
 
 如果您看到这篇文章，表示您的 Github Pages 已经搭建成功了！
 
-引用一张图片示例：[图片名称](/assets/article/HelloWord/example.png)
+引用一张图片示例：![图片名称](/assets/article/HelloWord/example.png)
 
+引用一个连接示例：[图片名称](/assets/article/HelloWord/example.png)
+
+写 HTML 示例：
 !!!
 <a href="">你好世界</a>
 !!!
