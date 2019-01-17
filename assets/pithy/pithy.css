@@ -404,8 +404,13 @@ blockquote {
 	background-color: #666
 }
 
+.bottom-panel-div {
+  width: 100%;
+  height: 30px
+}
+
 .bottom-panel {
-  position: inherit;
+  position: fixed;
   bottom: 0;
   text-align: center;
   line-height: 30px;
