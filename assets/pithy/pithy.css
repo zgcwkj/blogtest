@@ -19,6 +19,7 @@
         }
         
 body {
+  height: 100%;
 	background: #E3E3E3;
 	font-family: "Microsoft YaHei","Roboto Slab",serif
 }
@@ -404,13 +405,8 @@ blockquote {
 	background-color: #666
 }
 
-.bottom-panel-div {
-  width: 100%;
-  height: 30px
-}
-
 .bottom-panel {
-  position: fixed;
+  position: inherit;
   bottom: 0;
   text-align: center;
   line-height: 30px;
