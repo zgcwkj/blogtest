@@ -13,10 +13,10 @@ excerpt: "HelloWord"
 
 引用一个连接示例：[图片名称](/assets/article/HelloWord/example.png)
 
-写 HTML 示例：
-!!!
-<a href="">你好世界</a>
-!!!
+<div>
+    <h3>写 HTML 示例：</h3>
+    <a href="">你好世界</a>
+</div>
 
 > 使用 Markdown 语法写作
 > 
