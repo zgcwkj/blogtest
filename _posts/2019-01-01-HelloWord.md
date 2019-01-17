@@ -9,7 +9,7 @@ excerpt: "HelloWord"
 
 如果您看到这篇文章，表示您的 Github Pages 已经搭建成功了！
 
-引用一张图片示例：[图片名称][/assets/article/HelloWord/example.png]
+引用一张图片示例：[图片名称](/assets/article/HelloWord/example.png)
 
 > 使用 Markdown 语法写作
 > 
