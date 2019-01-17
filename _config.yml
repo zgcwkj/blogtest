@@ -32,7 +32,7 @@ baseurl: "/"
 url: ""
 
 # 分页配置
-paginate: 10
+paginate: 6
 paginate_path: "page/:num"
 
 # scss配置
